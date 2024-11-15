@@ -5,7 +5,7 @@ import Results from "./Results";
 
 export default function Dictionary(){
 let [keyword, setKeyword]= useState("");
-let [results, setResults]= useState({});
+let [results, setResults]= useState("");
 
 function handleKeywordChange(event){
     setKeyword(event.target.value);
@@ -27,7 +27,7 @@ function handleResponse(response){
     return (
       <div className="dictionary">
         <h1 className="mt-5">Dictionary</h1>
-        <h3 className="mt-5">Give me a word!</h3>
+        <h4 className="mt-5">Give me a word!</h4>
         <form className="mt-3" onSubmit={search}>
           <input
             type="search"
@@ -37,6 +37,7 @@ function handleResponse(response){
           />
           <input type="submit" className="submit" value="&#128270;" />
         </form>
+       
         <Results results={results} />
       </div>
     );}
