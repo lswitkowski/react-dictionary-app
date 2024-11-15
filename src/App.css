@@ -3,16 +3,6 @@ text-align: left;
 margin: 50px 50px 50px 60px;
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-link {
-  color: #61dafb;
-}
+.container{
+  margin: 10px auto;}
 
