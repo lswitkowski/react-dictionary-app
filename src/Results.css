@@ -1,1 +1,13 @@
-.word{text-align: left;}
+.word{text-align: left;
+font-weight: 600;
+font-size: 46px;
+line-height: 46px;
+margin-top: 10px;}
+
+.phonetic{text-align: left;
+font-weight: 400;
+font-size: 36px;
+line-height: 46px;
+opacity:0.7;}
+
+.meaning{font-size: 18px;}

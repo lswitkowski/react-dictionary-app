@@ -26,9 +26,9 @@ function handleResponse(response){
 
     return (
       <div className="dictionary">
-        <h1>Dictionary</h1>
-        <h3>Give me a word!</h3>
-        <form className="" onSubmit={search}>
+        <h1 className="mt-5">Dictionary</h1>
+        <h3 className="mt-5">Give me a word!</h3>
+        <form className="mt-3" onSubmit={search}>
           <input
             type="search"
             className="searchbar"
@@ -37,6 +37,6 @@ function handleResponse(response){
           />
           <input type="submit" className="submit" value="&#128270;" />
         </form>
-        <Results results={results}/>
+        <Results results={results} />
       </div>
     );}
