@@ -40,8 +40,9 @@ if(loaded){
     return (
       <div className="dictionary">
         <h1 className="mt-5">Dictionary</h1>
-        <h5 className="mt-5">Give me a word!</h5>
-        <form className="mt-3" onSubmit={handleSubmit}>
+        <div className="searchbox">
+        <h5 className="mt-1">Give me a word!</h5>
+        <form className="mt-2" onSubmit={handleSubmit}>
           <input
             type="search"
             className="searchbar"
@@ -49,7 +50,7 @@ if(loaded){
             onChange={handleKeywordChange}
           />
           <input type="submit" className="submit" value="&#128270;" />
-        </form>
+        </form></div>
        
         <Results results={results} />
       </div>
