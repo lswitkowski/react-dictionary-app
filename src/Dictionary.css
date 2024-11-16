@@ -1,7 +1,7 @@
 
 h1{text-align: left;
 opacity: 0.8;
-margin-left: 15px;
+margin-left: 1%;
 font-weight: 600;
 text-shadow: 1px 1px 1px rgba(218, 112, 214, 0.6);}
 
@@ -15,7 +15,8 @@ h5{
 }
 
 form{
-    text-align: left;}
+    text-align: left;
+margin-left:1%;}
 
 .searchbar{min-width: 30%;
 padding:6px 18px;
